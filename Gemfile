@@ -64,3 +64,5 @@ end
 gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 gem "font-awesome-rails"
 gem 'devise'
+gem "geocoder"
+gem "figaro"
