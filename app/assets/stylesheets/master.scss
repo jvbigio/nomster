@@ -35,17 +35,28 @@ body {
   font-size: 26px;
  }
 
- .pagination {
+.pagination {
   letter-spacing: 3px;
  }
 
- .btn {
+.btn {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
  }
 
- .invalid-feedback {
+.invalid-feedback {
   color: #ff3333;
   background-color: #FFEEEE;
   border-radius: 3px;
   padding: 2px 8px 2px 8px;
  }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+#map {
+  height: 300px;
+}
