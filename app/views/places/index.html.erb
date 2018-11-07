@@ -20,6 +20,16 @@
       </div>
     <% end %>
   </div>
+
+    <div class="row">
+    <% if place.photos.present? %>
+      <div class="col-12">
+        <%= image_tag place.photos.first.picture %>
+        <%= place.photos.first.caption %>
+      </div>
+    </div>
+    <% end %>
+ 
 <% end %>
 
 <%= will_paginate @places, class: 'pagination offset-1' %>
